@@ -1,0 +1,47 @@
+                           {
+  "input": {
+    "depth_map_file": "DepthMap_12.dat"
+  },
+  "output": {
+    "filename": "outputorennayar",
+    "format": "vrml",
+    "export_all_formats": true,
+    "formats_available": ["vrml", "obj", "ply"]
+  },
+  "visualization": {
+    "light_position": {
+      "x": 2.0,
+      "y": 3.0,
+      "z": 2.0
+    },
+    "viewer_position": {
+      "x": -50.0,
+      "y": -90.0,
+      "z": 0.0
+    },
+    "reflection_model": "oren_nayar",
+    "reflection_models_available": ["lambert", "phong_blinn", "oren_nayar"],
+    "export_bmp": true,
+    "show_opengl_visualization": false,
+    "bmp_filename": "outputorennayar.bmp",
+    "bmp_resolution": {
+      "width": 1920,
+      "height": 1080
+    },
+    "model_rotation": {
+      "x": 10.0,
+      "y": -35.0,
+      "z": -50.0
+    },
+    "camera_rotation": {
+      "y": 50.0
+    }
+  },
+  "material": {
+    "ambient": [0.3, 0.3, 0.3],
+    "diffuse": [0.7, 0.7, 0.8],
+    "specular": [1.0, 1.0, 1.0],
+    "shininess": 16.0,
+    "roughness": 0.5
+  }
+}
